@@ -39,6 +39,7 @@ namespace Tetris.Managers
 
         private void InitiateGame()
         {
+            _inputProvider.Initiate(_gameSettings);
             _nextShapePreviewGrid.Initiate(_shapesProvider, _tilesScriptableObject);
             _gameGrid.Initiate(_tilesScriptableObject, _gridSystem);
             _gameLoopManager.Initiate(_gridSystem, _scoreManager, _gameUiManager, _gameSettings, _inputProvider);

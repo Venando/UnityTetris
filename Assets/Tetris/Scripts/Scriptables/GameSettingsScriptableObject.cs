@@ -12,6 +12,7 @@ namespace Tetris.Scriptables
         public int ScorePerClearedRow => _scorePerClearedRow;
         public float SpeedIncreaseEvery => _speedIncreaseEvery;
         public float SpeedIncreaseBy => _speedIncreaseBy;
+        public float AutoMoveTimeDelay => _autoMoveTimeDelay;
 
         [SerializeField] private int _width = 10;
         [SerializeField] private int _height = 20;
@@ -20,5 +21,6 @@ namespace Tetris.Scriptables
         [SerializeField] private int _scorePerClearedRow = 50;
         [SerializeField] private float _speedIncreaseEvery = 15f;
         [SerializeField] private float _speedIncreaseBy = 0.1f;
+        [SerializeField] private float _autoMoveTimeDelay = 0.05f;
     }
 }

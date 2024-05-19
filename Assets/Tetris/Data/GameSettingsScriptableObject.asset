@@ -19,3 +19,4 @@ MonoBehaviour:
   _scorePerClearedRow: 50
   _speedIncreaseEvery: 15
   _speedIncreaseBy: 0.1
+  _autoMoveTimeDelay: 0.1
