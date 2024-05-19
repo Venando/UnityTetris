@@ -2,7 +2,7 @@
 {
     public struct ScoreUpdateMessage
     {
-        public int Score;
+        public readonly int Score;
 
         public ScoreUpdateMessage(int score)
         {

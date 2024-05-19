@@ -10,11 +10,15 @@ namespace Tetris.Scriptables
         public float FastModeTickTime => _fastModeTickTime;
         public float TickTime => _tickTime;
         public int ScorePerClearedRow => _scorePerClearedRow;
+        public float SpeedIncreaseEvery => _speedIncreaseEvery;
+        public float SpeedIncreaseBy => _speedIncreaseBy;
 
         [SerializeField] private int _width = 10;
         [SerializeField] private int _height = 20;
         [SerializeField] private float _fastModeTickTime = 0.075f;
         [SerializeField] private float _tickTime = 0.4f;
         [SerializeField] private int _scorePerClearedRow = 50;
+        [SerializeField] private float _speedIncreaseEvery = 15f;
+        [SerializeField] private float _speedIncreaseBy = 0.1f;
     }
 }

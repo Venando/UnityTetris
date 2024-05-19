@@ -16,3 +16,6 @@ MonoBehaviour:
   _height: 18
   _fastModeTickTime: 0.04
   _tickTime: 0.4
+  _scorePerClearedRow: 50
+  _speedIncreaseEvery: 15
+  _speedIncreaseBy: 0.1
